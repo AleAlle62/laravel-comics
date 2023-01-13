@@ -3,52 +3,40 @@
 //array associativo della rotta e il nome
 return [
     [
-        'route' => 'home',
-        'label' => 'Home',
+        'rotta' => 'charaters',
+        'pagina' => 'CHARATERS'
     ],
     [
-        'route' => 'prodotti',
-        'label' => 'Prodotti',
+        'rotta' => 'comics',
+        'pagina' => 'COMICS'
     ],
     [
-        'route' => 'news',
-        'label' => 'News',
+        'rotta' => 'movies',
+        'pagina' => 'MOVIES'
     ],
-    // [
-    //     'route' => ['charaters'],
-    //     'label' => 'Charaters'
-    // ],
-    // [
-    //     'route' => ['comics'],
-    //     'label' => 'Comics'
-    // ],
-    // [
-    //     'route' => ['movies'],
-    //     'label' => 'Movies'
-    // ],
-    // [
-    //     'route' => ['tv'],
-    //     'label' => 'Tv'
-    // ],
-    // [
-    //     'route' => ['collectables'],
-    //     'label' => 'Collectables'
-    // ],
-    // [
-    //     'route' => ['videos'],
-    //     'label' => 'Videos'
-    // ],
-    // [
-    //     'route' => ['fans'],
-    //     'label' => 'Fans'
-    // ],
-    // [
-    //     'route' => ['news'],
-    //     'label' => 'News'
-    // ],
-    // [
-    //     'route' => ['shop'],
-    //     'label' => 'Shop'
-    // ],
+    [
+        'rotta' => 'tv',
+        'pagina' => 'TV'
+    ],
+    [
+        'rotta' => 'collectables',
+        'pagina' => 'COLLECTABLES'
+    ],
+    [
+        'rotta' => 'videos',
+        'pagina' => 'VIDEOS'
+    ],
+    [
+        'rotta' => 'fans',
+        'pagina' => 'FANS'
+    ],
+    [
+        'rotta' => 'news',
+        'pagina' => 'NEWS'
+    ],
+    [
+        'rotta' => 'shop',
+        'pagina' => 'SHOP'
+    ],
 ]
 ?>
