@@ -13,6 +13,28 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+//homepage
 Route::get('/', function () {
-    return view('welcome');
-});
+    return view('guest.home',[
+        'menu' => config('menu'),
+    ]);
+    // dare un nome alla rotta
+}) ->name('home');
+
+//pagina prodotti
+Route::get('/prodotti', function () {
+    $menu = config('menu');
+    $comics = config('comics');
+    return view('guest.prodotti', [
+        'menu' => $menu,
+        'comics' => $comics,
+    ]);
+})->name('prodotti');
+
+//pagina news
+Route::get('/news', function () {
+    $menu = config('menu');
+    return view('guest.news', [
+        'menu' => $menu,
+    ]);
+})->name('news');
