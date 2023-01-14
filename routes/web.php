@@ -23,6 +23,8 @@ Route::get('/', function () {
     // dare un nome alla rotta
 }) ->name('home');
 
+
+
 //personaggi
 Route::get('/charaters', function () {
     return view('guest.charaters',[

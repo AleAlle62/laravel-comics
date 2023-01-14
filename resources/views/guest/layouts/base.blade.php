@@ -13,6 +13,6 @@
         @yield('content')
     </main>
 
-    @include('guest.partials.footer')
+    @include('guest.layouts.footer')
 </body>
 </html>
